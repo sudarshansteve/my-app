@@ -35,13 +35,9 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-snapshots/</url>
+		    <url>http://nexus.nxtsandbox.local/repository/my-app/</url>
 		 </snapshotRepository>
 		
-		<repository>
-		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
-		</repository>
   	</distributionManagement>
 	
 <build>
